@@ -1,11 +1,22 @@
 body {
+  margin: 0;
   font-family: Verdana, sans-serif;
   color: #333;
   background-color:aliceblue;
 }
 
+header {
+  height: 50vh;
+  background: url(./../img/background.jpg) center / cover;
+}
+
 h1 {
+  font-size: calc(14px + 7vw);
+  color: #fff;
+  width: 100%;
+  margin: 0;
   text-align: center;
+  line-height: 50vh;
 }
 
 main {
