@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Verdana, sans-serif;
   color: #333;
-  background-color:aliceblue;
+  background-color:#eeece9;
 }
 
 header {
@@ -24,7 +24,6 @@ main {
   padding: 30px 30px 30px 30px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
 }
 
 ul {
@@ -37,10 +36,41 @@ ul {
   justify-content: space-between;
 }
 
+.profile {
+  margin: 0 auto 50px;
+  padding: 40px 10px 40px;
+  background-color: #fff;
+}
+
+.reason {
+  margin: 0 auto 50px;
+  padding: 40px 10px 40px;
+  background-color: #fff;
+}
+
+.skill {
+  margin: 0 auto 50px;
+  padding: 40px 10px 40px;
+  background-color: #fff;
+}
+
+.product {
+  margin: 0 auto 50px;
+  padding: 40px 10px 40px;
+  background-color: #fff;
+}
+
+.contact {
+  margin: 0 auto 50px;
+  padding: 40px 10px 40px;
+  background-color: #fff;
+}
+
 h2 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  margin: 0 0 20px;
 }
 
 h3 {
