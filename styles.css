@@ -26,6 +26,13 @@ main {
   margin-right: auto;
 }
 
+.nav {
+  height: 50px;
+  font-family: Verdana, sans-serif;
+  background-color: #fff;
+  line-height: 50px;
+}
+
 ul {
   max-width: 800px;
   padding: 0 20px;
