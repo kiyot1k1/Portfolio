@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: Verdana, sans-serif;
   color: #333;
-  background-color:#eeece9;
+  background-color: rgb(241, 241, 241);
+  line-height: 170%;
 }
 
 header {
@@ -20,8 +21,8 @@ h1 {
 }
 
 main {
-  width: 800px;
-  padding: 30px 30px 30px 30px;
+  width: 950px;
+  padding: 50px 0 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,68 +35,111 @@ main {
 }
 
 ul {
-  max-width: 800px;
+  max-width: 700px;
   padding: 0 20px;
-  margin: 40px auto 40px;
+  margin: 0 auto;
   list-style-type: none;
   display: flex;
-  text-align: center;
   justify-content: space-between;
 }
 
+li a {
+  color: #333;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:darkorange;
+}
+
 .profile {
+  width: 850px;
   margin: 0 auto 50px;
-  padding: 40px 10px 40px;
+  padding: 20px 50px 40px;
   background-color: #fff;
 }
 
 .reason {
+  width: 850px;
   margin: 0 auto 50px;
-  padding: 40px 10px 40px;
+  padding: 20px 50px 40px;
   background-color: #fff;
 }
 
 .skill {
+  width: 850px;
   margin: 0 auto 50px;
-  padding: 40px 10px 40px;
+  padding: 20px 50px 40px;
   background-color: #fff;
 }
 
 .product {
+  width: 850px;
   margin: 0 auto 50px;
-  padding: 40px 10px 40px;
+  padding: 20px 50px 40px;
   background-color: #fff;
 }
 
 .contact {
-  margin: 0 auto 50px;
-  padding: 40px 10px 40px;
+  width: 850px;
+  margin: 0 auto 25px;
+  padding: 20px 50px 40px;
   background-color: #fff;
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
+  padding-bottom: 8px;
+  border-bottom: 5px solid #ffba73;
 }
 
 h3 {
   font-size: 16px;
   font-weight: bold;
+  margin: 0 0 7px;
+  padding: 3px 0 3px 8px;
+  border-left: 4px solid #fece78;
+  background: linear-gradient(to right,#ffefd5,#fff);
+}
+
+h4 {
   margin: 0;
+  font-weight: bold;
 }
 
 p {
   font-size: 16px;
+  color: rgb(77, 77, 77);
   text-align: left;
   margin: 0;
 }
 
+.btn {
+  text-decoration: none;
+  background: #fff;
+  color: rgb(77, 77, 77);
+  padding: 7px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #c7c7c7;
+}
+
+.btn:hover {
+  background-color: #e4e3e3;
+}
+
+footer {
+  font-size: 18px;
+  height: 130px;
+  margin: 30px 0 0;
+  background: #323135;
+  color: #98969c;
+}
+
 footer p{
   text-align: center;
-  font-size: 14px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: gray;
+  line-height: 130px;  
 }
